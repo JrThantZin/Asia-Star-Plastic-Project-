@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <style>
-      .nav-item a {
-        font-weight: bold;
-        font-family: "Times New Roman";
+      .top-banner {
+        width: 100%;
+        height: 15vh;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./img/top\ bar.png);
       }
+
       .navbar-nav li a {
         font-weight: bold;
-        color: rgb(243, 234, 234);
+        color: black;
       }
-      .nav-item a:hover {
-        color: rgb(7, 7, 7);
-        transition: 0.5s;
-        background-color: rgb(221, 221, 196);
+      .navbar-nav li a:hover {
+        color: rgb(231, 237, 236);
+        background-color: rgb(231, 90, 20);
         border-radius: 10px;
       }
     </style>
@@ -30,13 +33,13 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand p-2" href="#"
-          ><img src="./img/logo 1.png" alt="" style="padding-left: 18%"
+          ><img src="./img/logo 1.png" alt="" style="padding-left: 30%"
         /></a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler bg-black"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapsibleNavbar"
@@ -47,7 +50,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ms-auto px-3">
             <li class="nav-item m-3">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item m-3">
               <a class="nav-link" href="./about.html">About</a>
@@ -94,6 +97,9 @@
         </div>
       </div>
     </nav> -->
+    <div class="top-banner">
+      <!-- <img src="./img/top bar.png" alt="" style="width: 100%; height:160px;"> -->
+    </div>
 
     <!-- This is home page  -->
     <div class="container-fluid m-0" style="width: 100%; height: 100vh">
@@ -119,8 +125,7 @@
             <p class="m-3 p-1" style="font-weight: bold">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
               delectus sunt quibusdam autem nam recusandae quidem rerum itaque
-              iure, ratione expedita! Pariatur minus corrupti sit, maiores sed
-              eos fuga iste?
+              es sed eos fuga iste?
             </p>
 
             <button
@@ -136,13 +141,15 @@
             </button>
           </div>
         </div>
-        <div class="col-sm-8 bg-light mt-5" style="width: 50%; height: 100vh">
+        <div class="col-sm-8 bg-light" style="width: 50%; height: 100vh">
           <a href="#"
             ><img src="./img/Frame 5.png" alt="" class="img-fluid pt-3"
           /></a>
         </div>
       </div>
     </div>
+
+    <!-- end footer  -->
 
     <!-- Java Script -->
 

@@ -17,10 +17,10 @@ h4 {
   margin: 30px;
 }
 .container {
-  background-color: rgb(232, 73, 216);
   max-width: 900px;
   padding-bottom: 40px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 .text_cont label {
   padding-left: 14px;
@@ -45,7 +45,7 @@ h4 {
 .text_cont,
 .opt_cont,
 .area_cont {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .opt_cont select {
   width: 100%;
@@ -62,14 +62,14 @@ h4 {
 input,
 textarea {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .btn_center {
   justify-content: center;
   align-items: center;
   padding-left: 40%;
-  margin: 20px;
+  margin: 10px;
   width: 100%;
 }
 .btn_center button {
